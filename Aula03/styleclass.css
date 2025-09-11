@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62, 5%;
+}
+
+p.citacao {
+    text-align: right;
+    font-style: italic;
+    font-size: 14px;
+}
+p.texto1 {
+    color: #ffd51c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p.texto2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+span.por {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p.cor-fundo {
+    background-color: grey;
+    color: aliceblue;
+}
+#titulo {
+    color: cadetblue;
+    text-shadow: 5px 5px 5px #68a8f1;
+    text-align: center;
+}
+article p {
+    color: purple;
+}
+
+ol li a {
+    color: red;
+}
+
+h2, h3 {
+    background-color: greenyellow;
+}
+
+nav{
+    background-color: #68a8f1;
+    height: 10vh;
+}
+
+ul > li{
+    display: inline;
+    margin: 20px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}

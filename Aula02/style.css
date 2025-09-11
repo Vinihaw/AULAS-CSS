@@ -1,0 +1,29 @@
+body{
+    background-color: #c665f7;
+    font-family: "Asimovian", sans-serif;
+}
+h1{
+    color: #5ceef3;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+}
+p {
+    font-family: "Epunda Slab", serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 200%;
+}
+
+li {
+    font-weight: bold;
+    font-style: italic;
+}
+article{
+    font-style: italic;
+    line-height: 400%;
+    text-align: right;
+}
