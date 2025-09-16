@@ -1,0 +1,37 @@
+body {
+    background-color: aquamarine;
+    background-image: url('sonicfundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1, p {
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    color: red;
+}
+
+.container1 {
+    height: 50vh;
+}
+.container2 {
+    height: 50vh;
+    background-image: linear-gradient(to top, purple, magenta, purple); 
+    /* ou Radiant */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Ou text-align: center; */
+}
+
+img{
+    width: 200px;
+    margin: 5vh;
+    /* box-shadow: 5px 4px 4px white; */
+    filter: drop-shadow(6px 6px 5px white);
+}
+
+.container3 {
+    height: 50vh;
+}
