@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    height: 250px;
+    width: 250px;
+    border: solid 1px #9334ec;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box1 {
+    background-color: #cf7622;
+    /* margin: top right bottom left
+    100px 100px 50px 100px */
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+    margin-left: 100px;
+}
+
+.box2 {
+    /* padding: top right bottom left
+    100px 100px 50px 100px */
+    background-color: #06857eef;
+    padding-left: 25px;
+    padding-bottom: 50px;
+    padding-right: 75px;
+    padding-top: 50px;
+}
