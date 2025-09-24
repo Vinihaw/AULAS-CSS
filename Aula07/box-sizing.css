@@ -1,0 +1,27 @@
+.box {
+    height: 200px;
+    width: 200px;
+    border: solid 5px cadetblue;
+    margin: 5px;
+}
+
+.box1 {
+    box-sizing: border-box;
+    background-color: magenta;
+}
+
+/* .box2 {
+    display: block;
+    display: inline;
+    display: inline-block;
+    display: none;
+} */
+
+/* Exemplo:
+display:flex
+display:grid */
+
+.box3 {
+    background-color: chartreuse;
+    box-sizing: content-box;
+}

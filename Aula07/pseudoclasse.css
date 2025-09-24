@@ -1,0 +1,8 @@
+a:active {
+    color: pink;
+}
+
+input:focus {
+    background-color: mediumseagreen;
+    color: aliceblue;
+}

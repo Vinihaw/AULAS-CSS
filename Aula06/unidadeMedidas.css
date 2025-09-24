@@ -37,4 +37,7 @@ div {
     background-color: yellow;
     height: 200px;
     width: 200px;
+    border: double 5px blueviolet;
+    /* box-sizing: content-box; */
+    /* box-sizing: border-box; */
 }
