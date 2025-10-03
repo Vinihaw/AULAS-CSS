@@ -1,0 +1,23 @@
+:root {
+    --cor-fundo: #0BDBE3;
+    --cor-font: #3E0CC8;
+    --cor-titulo: #003037;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: solid 2px yellowgreen;
+    margin: 5px;
+    background-color: var(--cor-fundo);
+}
+
+.box2:hover {
+background-color: blueviolet;
+height: 200px;
+width: 200px;
+}
+
+h1 {
+    color: var(--cor-titulo);
+}

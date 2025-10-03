@@ -1,0 +1,74 @@
+.container {
+  height: 400px;
+  width: 700px;
+  border: solid 2px magenta;
+  background-color: grey;
+  /* Flex-box */
+  display: flex;
+  /* !!!Alinhamento com o main-axis (justify-content)!!! */
+
+    /* justify-content: flex-start; - Alinhados no INÍCIO do Flex-direction.*/
+
+    /* justify-content: center; Alinhados no MEIO do Flex-direction.*/
+  
+    /* justify-content: flex-end; Alinhados no FINAL do Flex-direction.*/
+  
+    /* justify-content: baseline; Alinhados com a LINHA DO TEXTO.*/
+  
+    /* justify-content: start; Não leva em consideração o main-axis*/
+  
+    /* justify-content: end;  Não leva em consideração o main-axis*/
+
+    /* justify-content: space-around; Divide igualmente IGNORANDO a borda dos lados.*/
+
+    /* justify-content: space-between; Divide UNIFORMEMENTE todos os lados. */
+  
+    /* justify-content: space-evenly ; Divide IGUALMENTE em todos os lados. */
+
+
+/* !!!Flex-Direction */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+
+
+/* !!!Flex-Wrap */
+  /* flex-wrap: wrap; Exibir em MULTIPLAS LINHAS.*/
+
+
+/* !!!Versões Abreviadas!!! */
+  /* Flex-flow = Direction + Wrap */
+
+
+/* !!!Alinhamento com o cross-axis (align-itens)!!! */
+
+flex-flow: row wrap;
+align-items: flex-start;
+/* justify-content: flex-end; */
+}
+
+.box {
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    border: solid 1px violet;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.box1 {
+    /* flex-grow: 1; */
+    order: 1;
+}
+
+.box2 {
+    /* flex-grow: 2; */
+    order: 2;
+}
+
+.box3 {
+    /* flex-shrink: 2; */
+    align-self: flex-end;
+    order: 3;
+}
